@@ -60,13 +60,14 @@
 
     <div class="quote-form">
       <h3>Get Your Free CCTV Quote Instantly</h3>
-      <form>
-        <input type="text" placeholder="Name" required>
-        <input type="tel" placeholder="Enter your mobile number" required>
-        <input type="email" placeholder="Mail ID">
-        <textarea placeholder="Your Requirements"></textarea>
-        <button type="submit">SUBMIT</button>
-      </form>
+      <form id="quoteForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="tel" id="phone" placeholder="Enter your mobile number" required>
+  <input type="email" id="email" placeholder="Mail ID">
+  <textarea id="requirements" placeholder="Your Requirements"></textarea>
+  <button type="submit">SUBMIT</button>
+</form>
+
     </div>
 
   </div>
@@ -77,7 +78,7 @@
   <div class="brand-founder-inner">
 
     <div class="brand-content">
-      <img src="images/593eb097-5f2c-4fe4-ba08-a6b5dbe51d64.jfif" class="brand-logo" alt="Company Logo">
+      <img src="images/var2.jfif" class="brand-logo" alt="Company Logo">
       <h2>Varshit Vision Trust Solutions</h2>
       <p class="brand-tagline">Vision you can trust.<br>Security we deliver.</p>
       <p class="brand-desc">
@@ -88,7 +89,7 @@
 
     <div class="founder-content">
       <div class="founder-card">
-        <img src="images/varshith.jfif" alt="Founder">
+        <img src="images/var1.jfif" alt="Founder">
         <h3>Founder & Technical Lead</h3>
         <p>Delivering reliable CCTV systems with quality installation and long-term support.</p>
       </div>
@@ -311,10 +312,32 @@
   <p>Phone: +91 89780 59058</p>
 </section>
 
+<section class="location">
+  <h2>Our Location</h2>
+  <p>
+    Registered Office – Telangana, India
+  </p>
+
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps?q=18.03187,79.425472&hl=en&z=17&output=embed"
+      width="100%"
+      height="380"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+
 <!-- ================= FOOTER ================= -->
-<footer>
-  <p>© 2026 Varshith vision – CCTV Installation Services</p>
+<footer class="site-footer">
+  <p>© 2026 Varshith Vision Trust Solutions</p>
+  <p>GSTIN: <strong>36BZCPV4176N1ZL</strong> | Registered in Telangana, India</p>
 </footer>
+
 <!-- ================= WHATSAPP CHAT ================= -->
 <a href="https://wa.me/918978059058"
    class="whatsapp-float"
