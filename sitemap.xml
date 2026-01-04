@@ -3,27 +3,9 @@
 
   <url>
     <loc>https://cc-installation-varshith.vercel.app/</loc>
+    <lastmod>2026-01-04</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://cc-installation-varshith.vercel.app/#about</loc>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://cc-installation-varshith.vercel.app/#services</loc>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://cc-installation-varshith.vercel.app/#projects</loc>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://cc-installation-varshith.vercel.app/#contact</loc>
-    <priority>0.70</priority>
   </url>
 
 </urlset>
