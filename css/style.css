@@ -1,3 +1,19 @@
+/* ===== THEME COLORS ===== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --heading-color: #003366;
+  --section-bg: #ffffff;
+}
+
+.dark-theme {
+  --bg-color: #0b1220;
+  --text-color: #e5e7eb;
+  --heading-color: #ff9f1a;
+  --section-bg: #0f172a;
+}
+
+
 
 body{font-family:Arial;margin:0;background:#f4f6f8}
 header{background:#003366;color:#fff;padding:30px;text-align:center}
@@ -1404,4 +1420,33 @@ body.light-mode .theme-toggle label {
   padding: 2px 8px;
   border-radius: 10px;
   margin-left: 8px;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+section {
+  background: var(--section-bg);
+  transition: background 0.4s ease;
+}
+
+h1, h2, h3 {
+  color: var(--heading-color);
+}
+.contact {
+  background: var(--section-bg);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.contact h2 {
+  color: var(--heading-color);
+}
+
+.contact p {
+  color: var(--text-color);
+  font-size: 16px;
 }
